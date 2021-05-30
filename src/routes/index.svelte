@@ -13,4 +13,7 @@
 
 <section>
 	<Hero heroTitle="Emiliano hero"/>
+	<div class="text-base text-blue-600 bg-blue-200 py-8">
+		<a href="/articles">Articles</a>
+	</div>
 </section>
