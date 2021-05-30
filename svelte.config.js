@@ -3,6 +3,7 @@ import autoprefixer from 'autoprefixer';
 import postcssNesting from 'postcss-nesting';
 import tailwindcss from 'tailwindcss';
 import { mdsvex } from "mdsvex";
+import netlify from "@sveltejs/adapter-netlify"
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -26,8 +27,9 @@ const config = {
 	})],
 	extensions: extensions,
 	kit: {
+		adapter: netlify(),
 		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte'
+		target: '#svelte',
 	}
 };
 
