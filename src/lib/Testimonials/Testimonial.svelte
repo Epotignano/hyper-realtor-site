@@ -21,13 +21,13 @@
         <footer class="mt-8">
             <div class="flex">
                 <div class="flex-shrink-0 inline-flex rounded-full border-2 border-white dark:border-gray-500">
-<!--                    <img-->
-<!--                        src={testimonial.authorAvatarUrl} alt="me" width="150" height="150"-->
-<!--                        class="object-cover object-top rounded-full" />-->
+                    <img
+                        src={testimonial.authorAvatarUrl} alt="me" width="150" height="150"
+                        class="object-cover object-top rounded-full" />
                 </div>
                 <div class="ml-4">
                     <div class="text-base font-medium text-gray-500 dark:text-gray-300"> {testimonial.authorName} - {testimonial.companyName}</div>
-                    <div class="text-base font-medium text-blue-500">{testimonial.authorLocation}</div>
+                    <div class="text-base font-medium text-blue-500">{testimonial.authorLocation} YOLO</div>
                 </div>
             </div>
         </footer>

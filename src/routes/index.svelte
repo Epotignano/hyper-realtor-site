@@ -8,13 +8,14 @@
 	import ProblemGrid from '$lib/ProblemGrid/index.svelte';
 	import Stats from '$lib/Stats/index.svelte';
 	import Services from '$lib/Services/index.svelte';
+	import LogoCloud from '$lib/LogoCloud/index.svelte';
 	import SvelteSeo from "svelte-seo"
 
 	const testimonials = [
 		{
 			quoteTitle: "Hello testimonial",
 			quote: "quote",
-			authorAvatarUrl: "authorAvatarUrl",
+			authorAvatarUrl: "static/images/testimonials/AntonioJimenez.jpg",
 			authorName: "authorName",
 			authorLocation: "authorLocation",
 			companyName: "Company Name"
@@ -45,7 +46,9 @@
 	<section>
 		<Stats/>
 	</section>
-
+	<section>
+		<LogoCloud />
+	</section>
 	<section>
 		<Testimonials
 			testimonials={testimonials}
