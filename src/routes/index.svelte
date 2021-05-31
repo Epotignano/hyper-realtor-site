@@ -3,17 +3,54 @@
 </script>
 
 <script lang="ts">
-	import Counter from '$lib/Counter/index.svelte';
 	import Hero from '$lib/Hero/index.svelte';
+	import Testimonials from '$lib/Testimonials/index.svelte';
+	import ProblemGrid from '$lib/ProblemGrid/index.svelte';
+	import Stats from '$lib/Stats/index.svelte';
+	import Services from '$lib/Services/index.svelte';
+	import SvelteSeo from "svelte-seo"
+
+	const testimonials = [
+		{
+			quoteTitle: "Hello testimonial",
+			quote: "quote",
+			authorAvatarUrl: "authorAvatarUrl",
+			authorName: "authorName",
+			authorLocation: "authorLocation",
+			companyName: "Company Name"
+		}
+	]
 </script>
 
-<svelte:head>
-	<title>Home</title>
-</svelte:head>
+<SvelteSeo title='HyperRealtor | Marketing Real Estate Success'/>
 
 <section>
-	<Hero heroTitle="Emiliano hero"/>
-	<div class="text-base text-blue-600 bg-blue-200 py-8">
-		<a href="/articles">Articles</a>
-	</div>
+	<Hero
+		description="We help Real Estate Developers and Teams to implement Cutting-edge Marketing Strategies to drive more profit."
+	>
+		<h1
+			slot="title"
+			class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl"
+		>
+			<span class="block xl:inline">Marketing for </span>
+			<span class="block text-purple-600 xl:inline">Real Estate Success</span>
+		</h1>
+	</Hero>
+	<section>
+		<ProblemGrid/>
+	</section>
+	<section>
+		<Services/>
+	</section>
+	<section>
+		<Stats/>
+	</section>
+
+	<section>
+		<Testimonials
+			testimonials={testimonials}
+			}
+		/>
+	</section>
+
 </section>

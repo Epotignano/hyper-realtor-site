@@ -5,3 +5,10 @@
 export interface Locals {
 	userid: string;
 }
+
+export interface Testimonial {
+    comment: string,
+    authorName: string, 
+    company: string,
+    avatar: string,
+}

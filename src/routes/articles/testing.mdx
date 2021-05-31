@@ -8,4 +8,16 @@
 
 <SvelteSeo title={title} description="A short description goes here." />
 
-<Hero heroTitle={title} />
+<Hero>
+	<h1
+		slot="title"
+		class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl"
+	>
+		<span class="block xl:inline">Here in the slot</span>
+		<span class="block text-purple-600 xl:inline">Really?</span>
+	</h1>
+</Hero>
+
+# Here is something else
+
+> This is something else
