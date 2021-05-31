@@ -1,5 +1,5 @@
 {
-	"name": "HyperRealtorSite",
+	"name": "hyper-realtor-site",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "svelte-kit dev",
