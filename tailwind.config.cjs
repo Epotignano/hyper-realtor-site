@@ -15,7 +15,7 @@ module.exports = {
     content: [
       "./src/**/*.svelte",
       // may also want to include HTML files
-      // "./src/**/*.html"
+      "./src/**/*.html"
     ],
     // this is for extracting Svelte `class:` syntax but is not perfect yet, see below
     defaultExtractor: content => {
