@@ -6,12 +6,12 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="relative bg-white py-16 sm:py-24 lg:py-32">
 	<div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-		<h2 class="text-base font-semibold tracking-wider text-indigo-600 uppercase">Deploy faster</h2>
+		<h2 class="text-base font-semibold tracking-wider text-indigo-600 uppercase">Grow faster</h2>
 		<p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-			Everything you need to deploy your app
+			Everything you need to thrive
 		</p>
 		<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
-			Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.
+			Get Growth Marketing Strategies for Real Estate and be the number one in your market
 		</p>
 		<div class="mt-12">
 			<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">

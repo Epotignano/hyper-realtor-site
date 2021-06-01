@@ -15,7 +15,7 @@
 		{
 			quoteTitle: "Hello testimonial",
 			quote: "quote",
-			authorAvatarUrl: "static/images/testimonials/AntonioJimenez.jpg",
+			authorAvatarUrl: "https://images.prismic.io/hyperrealtor/66c47521-12d9-48d3-9bca-252e21122e35_AntonioJimenez.jpeg?auto=compress,format",
 			authorName: "authorName",
 			authorLocation: "authorLocation",
 			companyName: "Company Name"

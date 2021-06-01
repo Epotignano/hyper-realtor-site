@@ -13,8 +13,8 @@
 			<div class="relative">
 				<dt>
 					<!-- Heroicon name: outline/check -->
-					<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500 absolute" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
 					</svg>
 					<p class="ml-9 text-lg leading-6 font-medium text-gray-900">You will burn your marketing money</p>
 				</dt>
@@ -22,8 +22,8 @@
 			<div class="relative">
 				<dt>
 					<!-- Heroicon name: outline/check -->
-					<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500 absolute" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
 					</svg>
 					<p class="ml-9 text-lg leading-6 font-medium text-gray-900">You will not know how your Sales team performs</p>
 				</dt>
@@ -31,8 +31,8 @@
 			<div class="relative">
 				<dt>
 					<!-- Heroicon name: outline/check -->
-					<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500 absolute" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
 					</svg>
 					<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Your products will sell slower and cost you more</p>
 				</dt>
@@ -40,8 +40,8 @@
 			<div class="relative">
 				<dt>
 					<!-- Heroicon name: outline/check -->
-					<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500 absolute" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
 					</svg>
 					<p class="ml-9 text-lg leading-6 font-medium text-gray-900">You will not have a knowledge base to start with advantage on your next projects</p>
 				</dt>
@@ -49,8 +49,8 @@
 			<div class="relative">
 				<dt>
 					<!-- Heroicon name: outline/check -->
-					<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500 absolute" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
 					</svg>
 					<p class="ml-9 text-lg leading-6 font-medium text-gray-900">You will be frustrated by spending a ton of money and effort without results</p>
 				</dt>
@@ -58,8 +58,8 @@
 			<div class="relative">
 				<dt>
 					<!-- Heroicon name: outline/check -->
-					<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500 absolute" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
 					</svg>
 					<p class="ml-9 text-lg leading-6 font-medium text-gray-900">You will keep guessing at with path leads to business success</p>
 				</dt>
