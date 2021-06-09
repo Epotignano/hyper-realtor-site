@@ -26,8 +26,8 @@
                         class="object-cover object-top rounded-full" />
                 </div>
                 <div class="ml-4">
-                    <div class="text-base font-medium text-gray-500 dark:text-gray-300"> {testimonial.authorName} - {testimonial.companyName}</div>
-                    <div class="text-base font-medium text-blue-500">{testimonial.authorLocation} YOLO</div>
+                    <div class="text-base font-medium text-gray-500 dark:text-gray-300"> {testimonial.authorName} </div>
+                    <div class="text-base font-medium text-blue-500">{testimonial.companyName} - {testimonial.authorLocation}</div>
                 </div>
             </div>
         </footer>

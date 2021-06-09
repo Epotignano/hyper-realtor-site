@@ -11,4 +11,7 @@ module.exports = {
       // may also want to include HTML files
       "./src/**/*.html"
     ],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ]
 };

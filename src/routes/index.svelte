@@ -7,20 +7,14 @@
 	import Testimonials from '$lib/Testimonials/index.svelte';
 	import ProblemGrid from '$lib/ProblemGrid/index.svelte';
 	import Stats from '$lib/Stats/index.svelte';
+	import Plan from '$lib/Plan/index.svelte';
 	import Services from '$lib/Services/index.svelte';
 	import LogoCloud from '$lib/LogoCloud/index.svelte';
 	import SvelteSeo from "svelte-seo"
+	import { Logos } from '../data/logos';
+	import { TestimonialsDataEn } from '../data/testimonials';
 
-	const testimonials = [
-		{
-			quoteTitle: "Hello testimonial",
-			quote: "quote",
-			authorAvatarUrl: "https://images.prismic.io/hyperrealtor/66c47521-12d9-48d3-9bca-252e21122e35_AntonioJimenez.jpeg?auto=compress,format",
-			authorName: "authorName",
-			authorLocation: "authorLocation",
-			companyName: "Company Name"
-		}
-	]
+
 </script>
 
 <SvelteSeo title='HyperRealtor | Marketing Real Estate Success'/>
@@ -28,6 +22,7 @@
 <section>
 	<Hero
 		description="We help Real Estate Developers and Teams to implement Cutting-edge Marketing Strategies to drive more profit."
+		imageUrl="https://images.prismic.io/hyperrealtor/1962dcca-844b-4119-ab09-16e6868ac074_Webp.net-resizeimage+%282%29.jpg?auto=compress,format"
 	>
 		<h1
 			slot="title"
@@ -45,13 +40,15 @@
 	</section>
 	<section>
 		<Stats/>
+		<LogoCloud logos={Logos} />
 	</section>
 	<section>
-		<LogoCloud />
+		<Plan/>
 	</section>
+
 	<section>
 		<Testimonials
-			testimonials={testimonials}
+			testimonials={TestimonialsDataEn}
 			}
 		/>
 	</section>
