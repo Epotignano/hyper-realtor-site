@@ -17,7 +17,11 @@
 
 </script>
 
-<SvelteSeo title='HyperRealtor | Marketing Real Estate Success'/>
+<SvelteSeo
+	title='HyperRealtor | Marketing Real Estate Success'/>
+<svelte:head>
+	<html lang="es-ES" />
+</svelte:head>
 
 <section>
 	<Hero
